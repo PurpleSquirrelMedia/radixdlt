@@ -125,7 +125,7 @@ public final class RadixNodeModule extends AbstractModule {
       Map.of(
           Network.MAINNET.getId(), new MainnetForksModule(),
           Network.STOKENET.getId(), new StokenetForksModule(),
-          Network.RELEASENET.getId(), new GenericTestnetForksModule(),
+          Network.RELEASENET.getId(), new StokenetForksModule(),
           Network.RCNET.getId(), new GenericTestnetForksModule(),
           Network.MILESTONENET.getId(), new GenericTestnetForksModule(),
           Network.DEVOPSNET.getId(), new GenericTestnetForksModule(),
